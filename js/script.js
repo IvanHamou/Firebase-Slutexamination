@@ -23,13 +23,23 @@
   const movieTitle = document.querySelector(".movieTitle")
   const movieBtnSelec = document.querySelector(".movieBtnSelec")
   const mainPage = document.querySelector(".mainPage")
+  const watchlist = document.querySelector(".watchlist")
+  const watchlistBtn = document.querySelector(".watchlistBtn")
 
 
   movieBtnSelec.style.display = "none"
+  watchlist.style.display = "none"
+
   movieTitle.addEventListener("click", () => {
-    
           movieBtnSelec.classList.add("show")
           movieBtnSelec.style.removeProperty("display")
+          mainPage.style.display = "none"
+      
+    })
+
+  watchlistBtn.addEventListener("click", () => {
+          watchlist.classList.add("show")
+          watchlist.style.removeProperty("display")
           mainPage.style.display = "none"
       
     })
