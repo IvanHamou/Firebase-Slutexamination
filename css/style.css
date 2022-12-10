@@ -49,7 +49,7 @@ main{
     
 }
 
-.movies article h2{
+.movieTitle h2{
     background-color: lightgray ;
     height: 300px;
     width: 200px;
