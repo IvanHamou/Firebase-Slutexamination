@@ -17,3 +17,19 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const db = getFirestore(app);
+
+
+
+  const movieTitle = document.querySelector(".movieTitle")
+  const movieBtnSelec = document.querySelector(".movieBtnSelec")
+  const mainPage = document.querySelector(".mainPage")
+
+
+  movieBtnSelec.style.display = "none"
+  movieTitle.addEventListener("click", () => {
+    
+          movieBtnSelec.classList.add("show")
+          movieBtnSelec.style.removeProperty("display")
+          mainPage.style.display = "none"
+      
+    })
