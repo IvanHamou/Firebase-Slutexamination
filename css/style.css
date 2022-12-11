@@ -57,12 +57,12 @@ main{
 }
 
 
-/*-------movieBtnSelec--------*/
+/*-------movieOptions--------*/
 
 
 
 
-.movieBtnSelec,
+.movieOptions,
 .watchlist {
     height: 100vh;
     display: flex;
