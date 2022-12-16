@@ -125,14 +125,11 @@ function addClickEvent() {
     removeMovie.forEach((removeMovieID) => {
             removeMovieID.addEventListener("click", async (event) => {
                 
-                
-                
-                
                 const movieID = event.target.getAttribute("id"); 
                 console.log(movieID);
                 
                 removeFromDatabase(movieID);
-                idk.style.display = "none"
+                alert("movie is removed")
             })
             
             
