@@ -44,16 +44,14 @@ main{
     text-align: center;
 }
 
-.movieGenre,
-.movieDate{
-    
-}
+
 
 .movieTitle h2{
     background-color: lightgray ;
     height: 300px;
     width: 200px;
     cursor: pointer;
+
 }
 
 
@@ -77,5 +75,17 @@ main{
     gap: 2rem;
     justify-content: center;
     align-items: center;
+  }
+
+  .movieContainerWatch{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  li{
+    display: none;
   }
 
